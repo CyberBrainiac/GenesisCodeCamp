@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+header {
+  width: 990px;
+}
+
+main {
+  width: 990px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 990px;
+}
+
+.CourseCont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.CourseElem {
+  width: 990px;
+  border: 3px double black;
+  text-align: center;
+  margin: 20px;
+}
+
+.CourseElem:hover {
+  background-color: rgba(174, 222, 165, 0.3);
+}
+
+.CourseElem_image {
+  width: 640px;
+  height: 360px;
+}
+
+.CourseElem_skills ul {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.helpBlock {
+  z-index: 8;
+  color: white;
+  background-color: rgb(154, 90, 190);
+  position: fixed;
+  border: 2px solid black;
+  padding: 10px;
+  opacity: 0;
+  width: 20%;
+  text-align: center;
+}
+
+.helpMessage {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
